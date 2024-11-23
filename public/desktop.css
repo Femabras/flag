@@ -327,20 +327,17 @@ footer a, footer p {
         width: 48vw;
     }
 }
-@media (max-width: 690px) and (min-width: 641px) {
-    .info {
-        width: 52vw;
-    }
-}
 @media (max-width: 690px) {
+    footer p, .info {
+        text-align: center;
+    }
     footer {
-        height: 40vh;
+        height: 100vh;
     }
     footer a {
         padding: 0.4em 0;
     }
     .info {
-        margin-top: .5em;
         flex-direction: column;
         gap: 0.7em;
         align-items: center;
@@ -349,6 +346,7 @@ footer a, footer p {
         display: none;
     }
 }
+
 
 @media (min-width: 855px) and (max-width: 1011px) {
     .logo p {
@@ -387,6 +385,25 @@ footer a, footer p {
     }
     .icon {
         width: 7vw;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    footer p, .info {
+        text-align: center;
+    }
+    input, iframe, .info, footer p, h2 {
+        
+        width: 75vw;
+    }
+    iframe {
+        height: 30vh;
+    }
+    .vehicles-container, .service-container, .vehicles {
+        width: 75vw;
+    } 
+    .vehicles-container{
+        height: 24vh;
     }
 }
 
